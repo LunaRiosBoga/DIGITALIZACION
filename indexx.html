@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gabinete de Abogados - Asesoría Legal Profesional">
+    <meta name="author" content="Gabinete Legal XYZ">
+    <title>Gabinete de Abogados XYZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Gabinete Jurídico XYZ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bienvenida">Bienvenida</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#equipo">Nuestro Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de bienvenida -->
+    <section id="bienvenida" class="bienvenida">
+        <div class="container">
+            <h2>Bienvenido a Gabinete Jurídico XYZ</h2>
+            <p>En Gabinete XYZ, ofrecemos asesoría y defensa legal de la más alta calidad. Contamos con un equipo de abogados especializados en diversas áreas del derecho para brindarte soluciones eficaces y personalizadas. Nuestra misión es proteger tus derechos y ofrecerte el mejor respaldo legal en cada etapa de tu vida.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <div class="container">
+            <h2>Servicios Legales</h2>
+            <div class="service-list">
+                <div class="service">
+                    <img src="imagenes/derechopenal.jpg" alt="Derecho Penal">
+                    <h3>Derecho Penal</h3>
+                    <p>Defendemos tus derechos en casos penales, desde delitos menores hasta delitos graves, con un enfoque estratégico y eficaz.</p>
+                </div>
+                <div class="service">
+                    <img src="imagenes/derechocivil.jpg" alt="Derecho Civil">
+                    <h3>Derecho Civil</h3>
+                    <p>Asesoramos en temas de contratos, propiedad, herencias y otros asuntos civiles, con una visión integral y protección de tus intereses.</p>
+                </div>
+                <div class="service">
+                    <img src="imagenes/derecholaboral.jpg" alt="Derecho Laboral">
+                    <h3>Derecho Laboral</h3>
+                    <p>Te representamos en conflictos laborales, despidos injustificados, indemnizaciones y reclamaciones salariales, garantizando tus derechos laborales.</p>
+                </div>
+                <div class="service">
+                    <img src="imagenes/derechofamiliar.jpg" alt="Derecho Familiar">
+                    <h3>Derecho Familiar</h3>
+                    <p>Asesoramos en cuestiones de divorcios, pensiones alimenticias, custodia de hijos, y otros temas relacionados con el derecho familiar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del equipo -->
+    <section id="equipo">
+        <div class="container">
+            <h2>Nuestro Equipo</h2>
+            <div class="team">
+                <div class="member">
+                    <img src="imagenes/abogado1" alt="Abogado Juan Pérez">
+                    <h3>Juan Pérez</h3>
+                    <p><strong>Especialización:</strong> Derecho Penal</p>
+                    <p>Con más de 15 años de experiencia defendiendo a clientes en casos complejos de derecho penal.</p>
+                </div>
+                <div class="member">
+                    <img src="imagenes/abogada2.jpg" alt="Abogada Laura García">
+                    <h3>Laura García</h3>
+                    <p><strong>Especialización:</strong> Derecho Civil</p>
+                    <p>Abogada experimentada en temas civiles, contratos, y resolución de disputas.</p>
+                </div>
+                <div class="member">
+                    <img src="imagenes/abogado2.jpg" alt="Abogado Carlos Martínez">
+                    <h3>Carlos Martínez</h3>
+                    <p><strong>Especialización:</strong> Derecho Laboral</p>
+                    <p>Experto en temas laborales, desde despidos hasta negociación de condiciones de trabajo.</p>
+                </div>
+                <div class="member">
+                    <img src="imagenes/abogada4.jpeg" alt="Abogada Ana Rodríguez">
+                    <h3>Ana Rodríguez</h3>
+                    <p><strong>Especialización:</strong> Derecho Familiar</p>
+                    <p>Abogada dedicada al derecho familiar, ayudando en procesos de divorcio, custodia y pensión alimenticia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Si necesitas asistencia legal, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte en cualquier situación jurídica.</p>
+            <form action="enviar_mensaje.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sección de pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gabinete Jurídico XYZ. Todos los derechos reservados. Luna Ríos.</p>
+            <div class="social-media">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
